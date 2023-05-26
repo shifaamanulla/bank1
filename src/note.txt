@@ -1,0 +1,38 @@
+Redirction in Angulr
+---------------------
+Link           -         href/routerLink
+Method         -         navigateByUrl()-used to redirect to other pages
+Class          -         Router
+Module         -         AppRoutingModule
+
+Package  -folder-contain many no:of files-collection of modules
+Module   - files-contain collection of classes
+Class    -contain collection of methods
+
+
+Data binding in Angular
+-----------------------
+Html-ts
+View-component
+1.one way data binding
+ 1.1-component to view
+    1.1.1-string interpolation{{}}
+    1.1.2-property binding [propertyName]=’value’
+
+1.2- view to component
+      1.2.1- event binding  (eventname)=”method name()”  -eg:- click
+      1.2.2- $event binding (eventname)='methodName($event)- eg:-change
+      1.2.3-event binding with template rendering variable
+
+2. two way data binding
+
+
+
+Life cycle blocks of angular component
+----------------------------------
+Constructor-->ngOnInit-->other method
+
+
+
+
+

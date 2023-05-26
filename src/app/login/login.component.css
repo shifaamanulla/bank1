@@ -1,0 +1,38 @@
+
+.a{
+/* margin-left:100px !important; */
+    background-image:linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url("https://i.postimg.cc/d0S0k1qg/Banking-1024x631.jpg");
+     /* background-color: rgba(14, 14, 148, 0.74);  */
+} 
+.a{
+  
+    margin-left:150px !important;
+    margin-top: 100px  !important;
+}
+.a1{
+    background-color:rgba(0, 8, 51, 0)
+    
+}
+
+@media(max-width:732px){
+    body{
+        margin-left: 0px !important;
+    }
+    .a{
+        margin-left: 0px !important;
+    }
+    span{
+        break-inside: auto;
+    }
+   .h2{
+    font-size: 12px !important;
+   }
+}
+.a2{
+    background-color: rgba(254, 254, 255, 0.329);
+    border: none;
+    border-bottom: 2px white solid;
+    color: rgb(255, 255, 255) !important;
+    
+}
+

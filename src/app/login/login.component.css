@@ -1,14 +1,14 @@
 
 .a{
 /* margin-left:100px !important; */
-    background-image:linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url("https://i.postimg.cc/d0S0k1qg/Banking-1024x631.jpg");
-     /* background-color: rgba(14, 14, 148, 0.74);  */
+    /* background-image:linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url("https://i.postimg.cc/d0S0k1qg/Banking-1024x631.jpg"); */
+     background-color: rgba(14, 14, 148, 0.74); 
 } 
-.a{
+/* .a{
   
     margin-left:150px !important;
-    margin-top: 100px  !important;
-}
+    margin-top: 100px  !important; */
+/* } */
 .a1{
     background-color:rgba(0, 8, 51, 0)
     

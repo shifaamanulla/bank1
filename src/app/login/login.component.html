@@ -8,16 +8,24 @@
 </head>
 <body >
     <h3>{{data}}</h3>
-    <div class=" col-6 w-50 continer mt-5 a">
-      
-        <form id="id" action="" class="mt-3 p-2 ms-2  a1  " >
-            <h2 class="text-center text-white mt-3  p-2  h2 text-center ">Login Form</h2>
-            <input #psw type="text" [placeholder]="pdata" class="form-control mt-3 p-2  a2 w  " (change)="accnoChange($event)">
-            <input type="text" placeholder=" enter Password" class="form-control mt-3 p-2  a2">
-            <button class="btn btn-outline-light mt-3  b" (click)="login(psw)" >Login</button>
-           <span class=" text-light "> don't have account?</span> <a routerLink="register" class=" text-white p">create account</a>
-        </form>
-    </div>
-    
+
+   <div>
+       <div class="row">
+            <div class=" col-6 w-50 continer mt-5 a">
+              
+                <form id="id" action="" class="mt-3 p-2 ms-2  a1  " >
+                    <h2 class="text-center text-white mt-3  p-2  h2 text-center ">Login Form</h2>
+                    <input  type="text" [placeholder]="pdata" class="form-control mt-3 p-2  a2 w  ">
+                    <input type="text" placeholder=" enter Password" class="form-control mt-3 p-2  a2">
+                    <button class="btn btn-outline-light mt-3  b" (click)="login()">Login</button>
+                   <span class=" text-light "> don't have account?</span> <a routerLink="register" class=" text-white p">create account</a>
+                </form>
+            </div>
+            <div class="col-6  continer w-50 text-center ">
+                <img  class="mt-5 w-100 " src="https://i.postimg.cc/1RFTMz7c/realtime-banking.png" alt="">
+            </div>
+            
+       </div>
+   </div>
 </body>
 </html>

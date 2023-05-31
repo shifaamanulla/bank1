@@ -22,17 +22,32 @@ View-component
 1.2- view to component
       1.2.1- event binding  (eventname)=”method name()”  -eg:- click
       1.2.2- $event binding (eventname)='methodName($event)- eg:-change
-      1.2.3-event binding with template rendering variable
+      1.2.3-event binding with template rendering variable 
+                                   (event)='method(templaterenderingVariable)'
 
 2. two way data binding
-
+    2.1-NgModule
 
 
 Life cycle blocks of angular component
 ----------------------------------
 Constructor-->ngOnInit-->other method
+(constructor-object create avumbole work cheyum)
 
 
+dependancy injection
+--------------------
+used to acess datas and methods of one class in another class(like inheritance)
+-inside  constructor
+
+access specifier-private/public
+(private it can be accessed inside in the  particular class,public it can be acessed by any class inside a page)
+                               constructor(private/public reference:className)
 
 
-
+Angular services
+----------------
+a file used to keep datas and methods that can access by any component in that  module
+ to generate service command inside
+                       ng g s servicename
+                       

@@ -38,10 +38,11 @@ Constructor-->ngOnInit-->other method
 dependancy injection
 --------------------
 used to acess datas and methods of one class in another class(like inheritance)
--inside  constructor
+-inside  constructor in the data service.ts 
 
 access specifier-private/public
 (private it can be accessed inside in the  particular class,public it can be acessed by any class inside a page)
+                             
                                constructor(private/public reference:className)
 
 
@@ -50,4 +51,31 @@ Angular services
 a file used to keep datas and methods that can access by any component in that  module
  to generate service command inside
                        ng g s servicename
-                       
+
+
+
+api code front end ill cheyumbol athu data service ill aanu cheyyendathu
+
+
+
+api
+---
+HttpClientModule  -Module
+HttpClient - class
+methods 
+     get,put,post,patch,delete
+
+
+
+Asynchronus in ts
+-----------------
+js-promise-then()
+            -catch()
+
+ts-observable  -subscribe()
+                -catch()
+
+form creation in angular
+------------------------
+1.template driven form-purely html code
+2.model driven form -ts and html

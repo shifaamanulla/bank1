@@ -8,14 +8,24 @@
 </head>
 <body>
     <!-- to use ng module inside the input we must give [(ngModel)="value"] -->
-    <div class="w-50 container text-center ">
-        <form id="d" action="" class="form-control text-center container w-50">
-            <input [(ngModel)]="acno" id="u1" name="accno" type="text" placeholder="Account Number" class="form-control mt-3 p-2">
-            <input [(ngModel)]="uname" id="u2" name="uname" type="text"  placeholder="User Name"class="form-control mt-3 p-2">
-            <input [(ngModel)]="psw" id="p1" name="pass"type="text" placeholder="Password" class="form-control mt-3 p-2">
-            <input [(ngModel)]="cpsw" type="text" id="p2" name="cpass" placeholder="confirm Password"class="form-control mt-3 p-2">
-            <button class="btn btn-success mt-3 p-2" (click)="signup()">create Account</button>
-        </form>
+    <div>
+
+        <div class="row">
+            <div class="col-8 container text-center  " >
+        
+                <form  action="" class="form-control text-center container w-50 mt-5 " style="background-color: rgba(43, 3, 107, 0.836);">
+                    <h1 class="text-center mt-2 text-white mb-3">Sign Up</h1>
+                    <input [(ngModel)]="acno" id="u1" name="accno" type="text" placeholder="Account Number" class="form-control mt-3 p-2">
+                    <input [(ngModel)]="uname" id="u2" name="uname" type="text"  placeholder="User Name"class="form-control mt-3 p-2">
+                    <input [(ngModel)]="psw" id="p1" name="pass"type="text" placeholder="Password" class="form-control mt-3 p-2">
+                    <input [(ngModel)]="cpsw" type="text" id="p2" name="cpass" placeholder="confirm Password"class="form-control mt-3 p-2">
+                    <button class="btn btn-success mt-3 p-2" (click)="signup()">create Account</button>
+                </form>
+            </div>
+            <div class="col-4 mt-5 container  text-center">
+                <img class=" w-100 mt-5"  src="https://i.postimg.cc/3RgSCQ3L/23.jpg" alt="">
+            </div>
+        </div>
     </div>
 </body>
 </html>
